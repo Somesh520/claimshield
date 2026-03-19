@@ -24,6 +24,15 @@ const config: Config = {
           950: "#172554",
         },
       },
+      keyframes: {
+        shimmer2: {
+          '0%': { backgroundPosition: '0% 0%' },
+          '100%': { backgroundPosition: '-200% 0%' },
+        },
+      },
+      animation: {
+        shimmer2: 'shimmer2 2s infinite linear',
+      },
     },
   },
   plugins: [],

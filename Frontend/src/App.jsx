@@ -6,6 +6,7 @@ import { Dashboard } from './pages/Dashboard';
 import { LoginPage } from './pages/LoginPage';
 import { TechnologyPage } from './pages/TechnologyPage';
 import { DemoOne } from './pages/DemoOne';
+import ShimmerDemo from './pages/ShimmerDemo';
 import ErrorBoundary from './components/ErrorBoundary';
 
 const AppContent = () => {
@@ -22,6 +23,7 @@ const AppContent = () => {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/technology" element={<TechnologyPage />} />
           <Route path="/demo" element={<DemoOne />} />
+          <Route path="/shimmer" element={<ShimmerDemo />} />
         </Routes>
       </ErrorBoundary>
     </div>

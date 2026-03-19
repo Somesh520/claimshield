@@ -96,9 +96,9 @@ export const Footer = ({
 
         {/* Large background brand text */}
         <div
-          className="bg-gradient-to-b from-slate-200 via-slate-100 to-transparent bg-clip-text text-transparent leading-none absolute left-1/2 -translate-x-1/2 bottom-40 md:bottom-32 font-extrabold tracking-tighter pointer-events-none select-none text-center px-4"
+          className="bg-gradient-to-b from-blue-400/20 via-blue-200/5 to-transparent bg-clip-text text-transparent leading-none absolute left-1/2 -translate-x-1/2 bottom-40 md:bottom-32 font-extrabold tracking-tighter pointer-events-none select-none text-center px-4"
           style={{
-            fontSize: 'clamp(3rem, 12vw, 10rem)',
+            fontSize: 'clamp(3rem, 15vw, 12rem)',
             maxWidth: '95vw'
           }}
         >
